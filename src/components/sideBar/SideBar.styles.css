@@ -1,0 +1,87 @@
+
+.sideBar
+{
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    position: fixed;
+    z-index: 99;    
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 0;
+}
+.btnCloseSideBar
+{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1%;
+    background-color:  #e00;
+    border-radius: 50%;
+}
+
+.containerProductBuy
+{
+    margin-top:25px ;    
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;    
+}
+.listProductBuy
+{
+    display: flex;
+    list-style: none; 
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #00000056;
+}
+.totalPriceBuy
+{
+    margin: 0 10px 0 auto;
+}
+.priceProductBuy
+{
+    margin: 0 5px 0 10px;
+    width: 60px;
+    text-overflow: ellipsis;
+}
+.countRipiteProduct
+{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    align-items: center;
+    margin-left: auto;
+}
+.btnCountProduct
+{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-justify: auto;    
+    cursor: pointer;  
+    border-radius: 1rem;
+}
+.btnBuy
+{
+    width: 50%;
+    height: 5vh;
+    margin: auto;
+    margin-top: 50px;    
+    background-color:var(--color-secundary);
+    color: #fff;
+    font-size: 120%;    
+    cursor: pointer;  
+    border-radius: 1rem;
+}
+.btnBuy:hover, .btnBuy:active
+{
+    color: #fff;
+    background-color: var(--color-price);
+}

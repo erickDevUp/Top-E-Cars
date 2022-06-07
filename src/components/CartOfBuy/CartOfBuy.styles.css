@@ -1,0 +1,43 @@
+
+
+.carOfBuy
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    min-width: 30px;
+    min-height:30px ;
+    width: 35px;
+    height:35px ;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 100px ;
+    cursor: pointer;
+    text-align: center;
+    background-color:#288ada;
+    color:#fff;
+}
+.itemInCart
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #f32d2d;
+    top: 20px;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    position: absolute;
+}
+/*----------------------------------------------Movile*-------------------------------------------------------*/
+
+@media only screen and (max-width:800px)
+{
+    .carOfBuy
+    {
+        margin: 10px;
+    }
+}
